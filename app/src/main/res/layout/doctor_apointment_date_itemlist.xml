@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+
+        <TextView
+            android:id="@+id/appointment_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today, Tue 09"
+            android:textColor="#F55907"
+            android:background="@drawable/shapetiming"
+            android:textSize="12dp"
+            android:padding="10dp"/>
+
+</RelativeLayout>

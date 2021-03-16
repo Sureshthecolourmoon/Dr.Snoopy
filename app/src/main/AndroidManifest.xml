@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.drsnoopy">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBarTheme">
+        <activity android:name=".Activity.AgentRegistrationFinalActivity" />
+        <activity android:name=".Activity.AgentRegistrationActivity" />
+        <activity android:name=".Activity.MapActivity" />
+        <activity android:name=".Activity.Success_petregistrationpopup_Activity" />
+        <activity android:name=".Activity.SuccessRegistrationActivity" />
+        <activity android:name=".Activity.PetPopupActivity" />
+        <activity android:name=".Activity.PetregistedOtpActivity" />
+        <activity
+            android:name=".Activity.PetRegistrationActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".Activity.SuccessRegisterActivity" />
+        <activity android:name=".Activity.RegistrationfinalActivity" />
+        <activity android:name=".Activity.ForgetPasswordActivity" />
+        <activity android:name=".Activity.AppointmentSuccessActivity" />
+        <activity
+            android:name=".Activity.DoctorAppointmentActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".Activity.DetailsDoctorActivity" />
+        <activity android:name=".Activity.DoctorActivity" />
+        <activity android:name=".Activity.SelectActivity" />
+        <activity android:name=".Activity.PhoneVerificationActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Activity.Register" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api" />
+    </application>
+
+</manifest>

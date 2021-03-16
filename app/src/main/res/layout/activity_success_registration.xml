@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F55400"
+    tools:context=".Activity.SuccessRegistrationActivity">
+
+
+    <ImageView
+        android:id="@+id/successimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/registering" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_dog" />
+
+    <TextView
+        android:id="@+id/thankslinesuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/successimage"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Thank you For Registering With"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/snoopytitlesuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thankslinesuccess"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="DR SNOOPY"
+        android:textColor="#ffffff"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/confirmlinesuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/snoopytitlesuccess"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Explore our services by login your account"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/petsuccess_button_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmlinesuccess"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/cornerswhite"
+        android:text="CLICK HERE TO LOGIN"
+        android:textColor="#F55400"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</RelativeLayout>

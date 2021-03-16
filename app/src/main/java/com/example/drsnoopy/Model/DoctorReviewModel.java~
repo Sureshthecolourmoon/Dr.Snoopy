@@ -1,0 +1,5 @@
+package com.example.drsnoopy.Model;
+
+public class DoctorReviewModel {
+    String name,
+}

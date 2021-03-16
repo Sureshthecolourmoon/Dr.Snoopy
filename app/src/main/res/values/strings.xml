@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Dr.Snoopy</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>FeMale</item>
+    </string-array>
+    <string-array name="Breed">
+        <item>Select Breed</item>
+        <item>Male</item>
+        <item>FeMale</item>
+    </string-array>
+
+    <string-array name="married">
+        <item>Select Status</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="google_maps_api">AIzaSyB7-I1_QqmQXOA-1pKN_8Uv0vAirxPqNyw</string>
+
+</resources>

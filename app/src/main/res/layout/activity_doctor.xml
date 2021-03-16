@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DoctorActivity">
+
+    <ImageView
+        android:id="@+id/image_doctorscreen"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#F55400" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/open_sans"
+        android:padding="10dp"
+        android:text="Choose A Doctor"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="25dp"
+        android:hint="Search"
+        android:inputType="text"
+        android:maxLength="50"
+        android:background="@drawable/shapecolorwhite"
+        android:drawableStart="@drawable/search"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="10dp"
+        android:padding="10dp" />
+
+
+    <FrameLayout
+        android:id="@+id/doctor_frame"
+        android:layout_below="@id/image_doctorscreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomnavigation"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        app:itemTextColor="@color/colorPrimary"
+        app:labelVisibilityMode="labeled"
+        android:background="@color/colorWhite"
+        app:menu="@menu/menu_itemlist" />
+
+
+</RelativeLayout>

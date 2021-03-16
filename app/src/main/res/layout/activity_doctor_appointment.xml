@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DoctorAppointmentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/book0n_appointment"
+        android:background="@drawable/shapewhitecardview">
+
+
+
+            <TextView
+                android:id="@+id/booktext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Book Appointment"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/appointment_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/booktext" />
+
+            <View
+                android:id="@+id/view_book"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/appointment_date"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#CCCACA" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_appointment_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_book"
+                android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/book0n_appointment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#F55400"
+        android:gravity="center"
+        android:text="Book On June 09 11:00 AM"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+</RelativeLayout>

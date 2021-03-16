@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapecircle">
+
+        <ImageView
+            android:id="@+id/home_image_recycler"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/clinics" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/home_text_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:text="Pet Doctors"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+</LinearLayout>

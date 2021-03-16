@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F55400"
+    tools:context=".Activity.SuccessRegisterActivity">
+
+    <ImageView
+        android:id="@+id/successimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/registering" />
+
+    <TextView
+        android:id="@+id/thanksline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/successimage"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Thank you For Registering With"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/snoopytitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thanksline"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="DR SNOOPY"
+        android:textColor="#ffffff"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/confirmline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/snoopytitle"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="A confirmation mail with login credentials \nhave been sent to your registered mail address"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/confirmline"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cardcorners"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pleaselise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/snoopytitle"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textSize="16dp"
+            android:text="Please Register your Pet to avail \nOur Services"
+            android:textColor="#0130FA"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/petregister_button_success"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_line_tearms"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/cornerbutton"
+            android:text="REGISTER UR PET"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/linkline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/snoopytitle"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textSize="16dp"
+            android:text="Link already registered Pet"
+            android:textColor="#0130FA"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/linkbutton_success"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/circleorange"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="LINK PET"
+            android:textColor="#F55400"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

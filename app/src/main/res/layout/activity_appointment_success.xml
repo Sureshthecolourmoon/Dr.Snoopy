@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F55400"
+    tools:context=".Activity.AppointmentSuccessActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/passwordtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/change_backarrow_id_success"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/back_1" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/tick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/tcik" />
+
+    <TextView
+        android:id="@+id/appointmentbooked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tick"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Your Appointment has \nbeen booked"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/appointmentname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appointmentbooked"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Suresh will be waiting \nfor you and your pet"
+        android:textColor="#ffffff"
+        android:textSize="12dp" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/appointmentname"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"
+    android:gravity="center"
+    android:layout_marginRight="70dp"
+    android:layout_marginLeft="70dp"
+    android:text="Tue 9 June at 11:00 Am"
+    android:textSize="18sp"
+    android:textColor="#ffffff"
+    android:padding="10dp"
+    android:background="@drawable/shapebuttonbackground"
+    />
+
+    <TextView
+        android:id="@+id/text_select_apontment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Go to Home Screen"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:textColor="#FB5802"
+        android:background="#ffffff"/>
+
+</RelativeLayout>

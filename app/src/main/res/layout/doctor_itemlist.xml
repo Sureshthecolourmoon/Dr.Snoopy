@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/recycle_cardview_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linear_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="3dp"
+                    android:elevation="5dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="8sp">
+
+                    <ImageView
+                        android:id="@+id/doctor_image"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/doctordog" />
+                </androidx.cardview.widget.CardView>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="-3dp">
+
+                    <TextView
+                        android:id="@+id/doctor_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:padding="2sp"
+                        android:text="Suresh"
+                        android:textColor="#020202"
+                        android:textSize="18sp"
+                         />
+
+                    <TextView
+                        android:id="@+id/doctor_experience"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/doctor_name"
+                        android:layout_marginLeft="7dp"
+                        android:text="10 Years Of Experience"
+                        android:textColor="#0613FF"
+                        android:textSize="12dp" />
+
+
+                    <ImageView
+                        android:padding="2dp"
+                        android:id="@+id/location"
+                        android:background="@drawable/shapelocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="3dp"
+                        android:layout_toLeftOf="@+id/km"
+                        android:src="@drawable/location" />
+
+                    <TextView
+                        android:id="@+id/km"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:text="1.5 KM"
+                        android:textColor="#000" />
+
+                    <RatingBar
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/rating"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="78dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/doctor_experience"
+                        android:layout_marginLeft="5dp"
+                        android:max="5"
+                        android:numStars="5"
+                        android:rating="4"
+                        android:saveEnabled="true"
+                        android:scaleX="1"
+                        android:scaleY="1"
+                        android:theme="@style/RatingBar" />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/rating"
+                        android:layout_below="@id/doctor_experience"
+                        android:layout_marginLeft="10dp"
+                        android:text="23 Reviews"/>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

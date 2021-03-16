@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/zero"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/five"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/ten"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/fifteen"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/twenty"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/twentyfive"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/thirty"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/thirtyfive"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/fourty"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/fourtyfive"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/fifty"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/fiftyfive"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/sixty"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/sixtyfive"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/seventy"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/seventyfive"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/eighty"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/eightyfive"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/ninty"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/nintyfive"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/hundred"
+        android:duration="100" />
+</animation-list>
